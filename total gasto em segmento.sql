@@ -1,0 +1,4 @@
+SUM(IF(CONTAINS_TEXT(Fname,"EMP-CORP"),fspent,0))+
+SUM(IF(CONTAINS_TEXT(Gname,"EMP-CORP"),gspent,0))+
+SUM(IF(CONTAINS_TEXT(lname,"EMP-CORP"),lspent,0))+
+SUM(IF(CONTAINS_TEXT(Pname,"EMP-CORP"),pspent,0))
